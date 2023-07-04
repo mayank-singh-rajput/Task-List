@@ -7,7 +7,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 const mongoose = require("mongoose");
-const MONGODB_URI = "mongodb+srv://MAYANK:mayankMS8952@cluster0.lr7dlna.mongodb.net/Task-List?retryWrites=true&w=majority&authMechanism=DEFAULT";
+const MONGODB_URI = "mongodb+srv://MAYANK:**********@cluster0.lr7dlna.mongodb.net/Task-List?retryWrites=true&w=majority&authMechanism=DEFAULT";
 const PORT = 4000;
 
 const taskRouter = require("./taskRouter");
